@@ -1,0 +1,38 @@
+.footer {
+  background-color: #222a35; /* Background color for the footer */
+  color: #c8cfd8; /* Text color */
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  margin-bottom: 10px;
+}
+
+.footer-section h4 {
+  margin: 10px 0; /* Margin for section headers */
+}
+
+.footer-section p {
+  margin: 5px 0; /* Margin for paragraph text */
+}
+
+.footer-disclaimer {
+  font-size: 0.8em; /* Smaller font size for disclaimer */
+  color: #ffffff; /* You can change the color as needed */
+}
+
+/* Responsive styling */
+@media (min-width: 768px) {
+  .footer-content {
+    display: flex;
+    justify-content: space-around; /* Distributes footer sections evenly */
+    align-items: flex-start; /* Aligns sections to the top */
+    margin-bottom: 20px; /* More space at the bottom on larger screens */
+  }
+
+  .footer-section {
+    flex: 1; /* Each section takes equal width */
+    margin: 0 10px; /* Margin between sections */
+  }
+}

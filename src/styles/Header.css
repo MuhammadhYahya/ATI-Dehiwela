@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #480048, #c04848);
+
+  height: 60px;
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#top_menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+#top_menu li {
+  margin: 0 1rem;
+}
+
+#top_menu li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+#top_menu li a:hover {
+  color: #c04848;
+}
+
+.course-select {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.course-select:hover,
+.course-select:focus {
+  background: rgba(255, 255, 255, 0.2);
+}
+.course-select option {
+  background: transparent;
+  color: black;
+}
